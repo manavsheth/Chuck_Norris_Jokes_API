@@ -1,0 +1,39 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-style:monospace;
+}
+#container{
+    position:relative;
+    background-color:#1f1f1f;
+    height:100vh;
+    color:limegreen;
+    font-size:1.8rem;
+    text-align:center;
+    overflow:hidden;
+    padding:10px 0;
+    width:100%;
+}
+#container p{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:1.8rem;
+    line-height:1.2em;
+    width:100%;
+    padding:0px 20px;
+}
+#joke-container{
+    height:200px;
+}
+#loadJokeBtn{
+    background-color:transparent;
+    border:1px solid limegreen;
+    cursor:pointer;
+    color:limegreen;
+    font-size:1.6rem;
+    text-transform:uppercase;
+    padding:10px;
+    margin: 35px auto;
+    display:block;
+}
